@@ -7,7 +7,7 @@ const resolvers = require("../graphql/resolvers");
 const { ApolloServerPluginDrainHttpServer } = require('apollo-server-core');
 const http = require('http');
 
-mongoose.connect('mongodb+srv://arianvsh:@Fifa1380@cluster0.qpx7gd9.mongodb.net/comp3133_assignment1?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://arianvsh:9248@cluster0.qpx7gd9.mongodb.net/comp3133_assignment1?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(success => {
